@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="AEM Instance Scans">cc523d3e835662105706c070ceaad3a3</decision_table>
+        <label>Instance Scan Suite name: AEM Scans Default Suite, Instance Scan Suite sys_id: 9af7c22b83ba6e905706c070ceaad3f7, Severity Level: Warning</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:36:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d228c22b83ba6e905706c070ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instance Scan Suite name: AEM Scans Default Suite, Instance Scan Suite sys_id: 9af7c22b83ba6e905706c070ceaad3f7, Severity Level: Warning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name>sys_decision_multi_result_d228c22b83ba6e905706c070ceaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=d228c22b83ba6e905706c070ceaad393"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d228c22b83ba6e905706c070ceaad393</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:36:16</sys_created_on>
+        <sys_id>1228c22b83ba6e905706c070ceaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
+        <value>9af7c22b83ba6e905706c070ceaad3f7</value>
+        <variable display_value="Instance Scan Suite sys_id">75477136839662105706c070ceaad361</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d228c22b83ba6e905706c070ceaad393</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:36:16</sys_created_on>
+        <sys_id>5e28c22b83ba6e905706c070ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
+        <value>AEM Scans Default Suite</value>
+        <variable display_value="Instance Scan Suite name">3d477136839662105706c070ceaad380</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d228c22b83ba6e905706c070ceaad393</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:36:16</sys_created_on>
+        <sys_id>d228c22b83ba6e905706c070ceaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
+        <value>warning</value>
+        <variable display_value="Severity Level">42477136839662105706c070ceaad392</variable>
+    </sys_variable_value>
+</record_update>

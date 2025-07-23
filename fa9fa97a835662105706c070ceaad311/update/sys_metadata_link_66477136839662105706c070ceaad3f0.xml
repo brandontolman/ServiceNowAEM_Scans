@@ -5,9 +5,9 @@
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer/>
+        <answer>d228c22b83ba6e905706c070ceaad393</answer>
         <condition/>
-        <decision_table display_value="AEM Scans">cc523d3e835662105706c070ceaad3a3</decision_table>
+        <decision_table display_value="AEM Instance Scans">cc523d3e835662105706c070ceaad3a3</decision_table>
         <default_answer>true</default_answer>
         <input_table>var__m_sys_decision_input_cc523d3e835662105706c070ceaad3a3</input_table>
         <label>AEM Scans default result</label>
@@ -19,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62477136839662105706c070ceaad3ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AEM Scans default result</sys_name>
         <sys_overrides/>
         <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
@@ -27,7 +27,7 @@
         <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
         <sys_update_name>sys_decision_question_62477136839662105706c070ceaad3ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-26 14:55:44</sys_updated_on>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
     </sys_decision_question>
 </record_update>
 ]]></payload>
@@ -35,14 +35,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-26 14:55:44</sys_created_on>
         <sys_id>66477136839662105706c070ceaad3f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AEM Scans default result</sys_name>
         <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
         <sys_policy/>
         <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
         <sys_update_name>sys_metadata_link_66477136839662105706c070ceaad3f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-26 14:55:44</sys_updated_on>
+        <sys_updated_on>2025-07-23 20:36:16</sys_updated_on>
         <tablename>sys_decision_question</tablename>
     </sys_metadata_link>
 </record_update>
