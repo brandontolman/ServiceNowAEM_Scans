@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_scan_suites__aem_scans</internal_name>
+        <label_cache>[{"name":"{{action.application_id}}","label":"action➛Application ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cb2666ad-578f-4520-9fed-97dae9706321].instance_scan_suites}}","label":"step➛Script step➛instance_scan_suites","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[cb2666ad-578f-4520-9fed-97dae9706321].atf_scan_suites}}","label":"step➛Script step➛atf_scan_suites","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>c0b0d236831a62105706c070ceaad3a4</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Get Scan Suites - AEM Scans</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11b1463e839662105706c070ceaad355</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Get Scan Suites - AEM Scans</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_11b1463e839662105706c070ceaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=11b1463e839662105706c070ceaad355"/>
+    <sys_variable_value action="delete_multiple" query="document_key=11b1463e839662105706c070ceaad355"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>11b1463e839662105706c070ceaad355</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>14c202f283d662105706c070ceaad355</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <value/>
+        <variable display_value="ATF Scan Suites">90c202f283d662105706c070ceaad34c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>11b1463e839662105706c070ceaad355</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>93c14e7283d662105706c070ceaad38b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">1bc14e7283d662105706c070ceaad36e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>11b1463e839662105706c070ceaad355</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>d4c202f283d662105706c070ceaad355</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <value/>
+        <variable display_value="Instance Scan Suites">84c202f283d662105706c070ceaad31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>11b1463e839662105706c070ceaad355</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>dfc14e7283d662105706c070ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">57c14e7283d662105706c070ceaad380</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=11b1463e839662105706c070ceaad355"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>atf_scan_suites</field>
+        <id>11b1463e839662105706c070ceaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>90c202f283d662105706c070ceaad355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</table>
+        <value>{{step[cb2666ad-578f-4520-9fed-97dae9706321].atf_scan_suites}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance_scan_suites</field>
+        <id>11b1463e839662105706c070ceaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>dcc202f283d662105706c070ceaad354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</table>
+        <value>{{step[cb2666ad-578f-4520-9fed-97dae9706321].instance_scan_suites}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>11b1463e839662105706c070ceaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>5fc14e7283d662105706c070ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>11b1463e839662105706c070ceaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>9bc14e7283d662105706c070ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=11b1463e839662105706c070ceaad355^sys_idNOT IN17c14e7283d662105706c070ceaad35f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</action>
+        <cid>cb2666ad-578f-4520-9fed-97dae9706321</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>17c14e7283d662105706c070ceaad35f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:22:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17c14e7283d662105706c070ceaad35f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>17c14e7283d662105706c070ceaad35f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>97c14e7283d662105706c070ceaad36c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:22:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var application = new Object();&#13;
+    application['u_application'] = inputs.application_id;&#13;
+&#13;
+    var instanceScanSuites = [];&#13;
+    var atfScanSuites = [];&#13;
+&#13;
+    var dtIS = new sn_dt.DecisionTableAPI();&#13;
+    var instanceScans = dtIS.getDecisions('cc523d3e835662105706c070ceaad3a3', application);&#13;
+    for(var i = 0; i &lt; instanceScans.length; i++) {&#13;
+        var suite = {};&#13;
+        suite['suite_id'] = instanceScans[i].result_elements.u_instance_scan_suite_sys_id;&#13;
+        suite['suite_name'] = instanceScans[i].result_elements.u_instance_scan_suite_name;&#13;
+        suite['error_severity'] = instanceScans[i].result_elements.u_severity_level;&#13;
+        instanceScanSuites.push(suite);&#13;
+    }&#13;
+&#13;
+    var dtATF = new sn_dt.DecisionTableAPI();&#13;
+    var atfScans = new dtATF.getDecisions('d0e7b1f2839662105706c070ceaad305', application);&#13;
+    for(var j = 0; j &lt; atfScans.length; j++) {&#13;
+        var suite = {};&#13;
+        suite['suite_id'] = atfScans[j].result_elements.u_atf_suite_sys_id;&#13;
+        suite['suite_name'] = atfScans[j].result_elements.u_atf_suite_name;&#13;
+        suite['error_severity'] = atfScans[j].result_elements.u_severity_level;&#13;
+        atfScanSuites.push(suite);&#13;
+    }&#13;
+&#13;
+    outputs.instance_scan_suites = instanceScanSuites;&#13;
+    outputs.atf_scan_suites = atfScanSuites;&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>17c14e7283d662105706c070ceaad35f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>d3c14e7283d662105706c070ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17c14e7283d662105706c070ceaad35f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>17c14e7283d662105706c070ceaad35f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>5bc14e7283d662105706c070ceaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application_id</field>
+        <id>17c14e7283d662105706c070ceaad35f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_id>3db8f1ef833a6e905706c070ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_17c14e7283d662105706c070ceaad35f</table>
+        <value>{{action.application_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>17c14e7283d662105706c070ceaad35f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>53c14e7283d662105706c070ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_17c14e7283d662105706c070ceaad35f^id=17c14e7283d662105706c070ceaad35f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=17c14e7283d662105706c070ceaad35f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=17c14e7283d662105706c070ceaad35f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=17c14e7283d662105706c070ceaad35f^sys_idNOT INb1b8b1ef833a6e905706c070ceaad3f0"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>application_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">17c14e7283d662105706c070ceaad35f</model>
+        <model_id>17c14e7283d662105706c070ceaad35f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_17c14e7283d662105706c070ceaad35f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:47</sys_created_on>
+        <sys_id>b1b8b1ef833a6e905706c070ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=17c14e7283d662105706c070ceaad35f^sys_idNOT INb1b8f1ef833a6e905706c070ceaad30c,f9b8b1ef833a6e905706c070ceaad3fa"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD31b8b1ef513a6e909099df85437c1bfa</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FD31b8b1ef513a6e909099df85437c1bfa":{"$COCollectionField":[{"atf_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"534aa562-e339-437a-8507-01277722f406\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"17520f4c-d403-47a0-aa62-816888e82e09\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6e49f772-c37a-45fa-a3c2-287bc5f35b80\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"atf_scan_suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD31b8b1ef513a6e909099df85437c1bfa\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD31b8b1ef513a6e909099df85437c1bfa.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"atf_scan_suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD31b8b1ef513a6e909099df85437c1bfa\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1b8b1ef833a6e905706c070ceaad3fa</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=atf_scan_suites_child0,child_name=atf_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=eafb33a5-ada0-48b2-a50e-90d267222c01,co_type_name=FD31b8b1ef513a6e909099df85437c1bfa,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b4785c8-6b63-4bae-943c-1ec01a0e1fb8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>atf_scan_suites</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>atf_scan_suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">17c14e7283d662105706c070ceaad35f</model>
+        <model_id>17c14e7283d662105706c070ceaad35f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_17c14e7283d662105706c070ceaad35f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_id>b1b8f1ef833a6e905706c070ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf9b8b1ef153a6e9031181a02d498bcf8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FDf9b8b1ef153a6e9031181a02d498bcf8":{"$COCollectionField":[{"instance_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"02f774cf-1aeb-4b65-aa3e-3760ba62fdc8\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4d5e6d5e-6822-48b5-be72-a8185032eaf8\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0f6fbdd1-e42f-4835-b23d-5b2187ec0c3c\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"instance_scan_suites\",\"mandatory\":\"true\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf9b8b1ef153a6e9031181a02d498bcf8\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf9b8b1ef153a6e9031181a02d498bcf8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"instance_scan_suites\",\"mandatory\":\"true\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf9b8b1ef153a6e9031181a02d498bcf8\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bdb8b1ef833a6e905706c070ceaad3f8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=instance_scan_suites_child0,child_name=instance_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=74bedf0f-0d6c-4268-8233-5cda83f2bd21,co_type_name=FDf9b8b1ef153a6e9031181a02d498bcf8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=2603cd27-961e-425b-9b53-55d82b60b6d7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_scan_suites</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>instance_scan_suites</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">17c14e7283d662105706c070ceaad35f</model>
+        <model_id>17c14e7283d662105706c070ceaad35f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_17c14e7283d662105706c070ceaad35f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_id>f9b8b1ef833a6e905706c070ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17c14e7283d662105706c070ceaad35f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>atf_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>atf_scan_suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_17c14e7283d662105706c070ceaad35f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_id>f9b8f1ef833a6e905706c070ceaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>instance_scan_suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_17c14e7283d662105706c070ceaad35f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 19:28:48</sys_created_on>
+        <sys_id>fdb8f1ef833a6e905706c070ceaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=11b1463e839662105706c070ceaad355^sys_idNOT IN37264a7683d662105706c070ceaad33b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bef43c4b-f866-4bed-9012-75460325af51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>application_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Application ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</model>
+        <model_id>11b1463e839662105706c070ceaad355</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_11b1463e839662105706c070ceaad355</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:00:49</sys_created_on>
+        <sys_id>37264a7683d662105706c070ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:00:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=37264a7683d662105706c070ceaad33b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=11b1463e839662105706c070ceaad355^sys_idNOT IN1bc14e7283d662105706c070ceaad36e,57c14e7283d662105706c070ceaad380,84c202f283d662105706c070ceaad31a,90c202f283d662105706c070ceaad34c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9a649f1c-983d-49eb-848e-78cb10bd3240</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</model>
+        <model_id>11b1463e839662105706c070ceaad355</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>1bc14e7283d662105706c070ceaad36e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:45:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1bc14e7283d662105706c070ceaad36e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1bc14e7283d662105706c070ceaad36e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=44c34cd2-d3a1-4db0-9e9e-735358ec9b7b,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</model>
+        <model_id>11b1463e839662105706c070ceaad355</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>57c14e7283d662105706c070ceaad380</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=57c14e7283d662105706c070ceaad380"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=57c14e7283d662105706c070ceaad380"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8cc202f261d66210c468221fc0fad017</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FD8cc202f261d66210c468221fc0fad017":{"$COCollectionField":[{"instance_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"02f774cf-1aeb-4b65-aa3e-3760ba62fdc8\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4d5e6d5e-6822-48b5-be72-a8185032eaf8\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0f6fbdd1-e42f-4835-b23d-5b2187ec0c3c\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Instance Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"3a176598-9387-43f2-a6c4-b5ea3b26e6d5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8cc202f261d66210c468221fc0fad017\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8cc202f261d66210c468221fc0fad017.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Instance Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"3a176598-9387-43f2-a6c4-b5ea3b26e6d5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8cc202f261d66210c468221fc0fad017\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40c202f283d662105706c070ceaad318</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=instance_scan_suites_child0,child_name=instance_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=74bedf0f-0d6c-4268-8233-5cda83f2bd21,co_type_name=FD8cc202f261d66210c468221fc0fad017,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=cb2666ad-578f-4520-9fed-97dae9706321,sourceType=step,sourceUiUniqueId=2603cd27-961e-425b-9b53-55d82b60b6d7,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=3a176598-9387-43f2-a6c4-b5ea3b26e6d5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_scan_suites</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance Scan Suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</model>
+        <model_id>11b1463e839662105706c070ceaad355</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:49</sys_created_on>
+        <sys_id>84c202f283d662105706c070ceaad31a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84c202f283d662105706c070ceaad31a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84c202f283d662105706c070ceaad31a"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc4c202f2e4d66210bb921315729cea19</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FDc4c202f2e4d66210bb921315729cea19":{"$COCollectionField":[{"atf_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"534aa562-e339-437a-8507-01277722f406\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"17520f4c-d403-47a0-aa62-816888e82e09\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6e49f772-c37a-45fa-a3c2-287bc5f35b80\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"ATF Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"30027854-dfae-4ba4-b50e-8c28937e2972\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc4c202f2e4d66210bb921315729cea19\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc4c202f2e4d66210bb921315729cea19.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"ATF Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"30027854-dfae-4ba4-b50e-8c28937e2972\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc4c202f2e4d66210bb921315729cea19\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88c202f283d662105706c070ceaad319</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=atf_scan_suites_child0,child_name=atf_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=eafb33a5-ada0-48b2-a50e-90d267222c01,co_type_name=FDc4c202f2e4d66210bb921315729cea19,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=cb2666ad-578f-4520-9fed-97dae9706321,sourceType=step,sourceUiUniqueId=1b4785c8-6b63-4bae-943c-1ec01a0e1fb8,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=30027854-dfae-4ba4-b50e-8c28937e2972</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>atf_scan_suites</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ATF Scan Suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</model>
+        <model_id>11b1463e839662105706c070ceaad355</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>90c202f283d662105706c070ceaad34c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:28:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=90c202f283d662105706c070ceaad34c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90c202f283d662105706c070ceaad34c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=11b1463e839662105706c070ceaad355"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=11b1463e839662105706c070ceaad355^sys_idNOT INd7c14e7283d662105706c070ceaad38c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>d7c14e7283d662105706c070ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d7c14e7283d662105706c070ceaad38c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>application_id</element>
+        <help/>
+        <hint/>
+        <label>Application ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_11b1463e839662105706c070ceaad355</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:00:49</sys_created_on>
+        <sys_id>f726c2f683d662105706c070ceaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:00:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_11b1463e839662105706c070ceaad355"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>13c14e7283d662105706c070ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:41:40</sys_created_on>
+        <sys_id>97c14e7283d662105706c070ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:41:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>atf_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>ATF Scan Suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:50</sys_created_on>
+        <sys_id>98c202f283d662105706c070ceaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:45:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>Instance Scan Suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:45:49</sys_created_on>
+        <sys_id>c4c202f283d662105706c070ceaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:45:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_11b1463e839662105706c070ceaad355"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=11b1463e839662105706c070ceaad355^sys_idNOT INe8b01636831a62105706c070ceaad32c"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e8b01636831a62105706c070ceaad32c","name":"plan","plan_signature":null}}</plan>
+        <snapshot>8e558ae383ba6e905706c070ceaad32e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8b01636831a62105706c070ceaad32c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:59</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>get_scan_suites__aem_scans</internal_name>
+        <label_cache>[{"name":"{{action.application_id}}","label":"action➛Application ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cb2666ad-578f-4520-9fed-97dae9706321].instance_scan_suites}}","label":"step➛Script step➛instance_scan_suites","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[cb2666ad-578f-4520-9fed-97dae9706321].atf_scan_suites}}","label":"step➛Script step➛atf_scan_suites","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Get Scan Suites - AEM Scans</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Scan Suites - AEM Scans">11b1463e839662105706c070ceaad355</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0b0d236831a62105706c070ceaad3a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c0b0d236831a62105706c070ceaad3a4</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>10b01636831a62105706c070ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <value/>
+        <variable display_value="ATF Scan Suites">9cb0d236831a62105706c070ceaad3f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c0b0d236831a62105706c070ceaad3a4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>58b01636831a62105706c070ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">18b0d236831a62105706c070ceaad3e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c0b0d236831a62105706c070ceaad3a4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>94b01636831a62105706c070ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <value/>
+        <variable display_value="Instance Scan Suites">18b0d236831a62105706c070ceaad3e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c0b0d236831a62105706c070ceaad3a4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>d0b01636831a62105706c070ceaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1cb0d236831a62105706c070ceaad3eb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>atf_scan_suites</field>
+        <id>c0b0d236831a62105706c070ceaad3a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>18b01636831a62105706c070ceaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</table>
+        <value>{{step[cb2666ad-578f-4520-9fed-97dae9706321].atf_scan_suites}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instance_scan_suites</field>
+        <id>c0b0d236831a62105706c070ceaad3a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>54b01636831a62105706c070ceaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</table>
+        <value>{{step[cb2666ad-578f-4520-9fed-97dae9706321].instance_scan_suites}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>c0b0d236831a62105706c070ceaad3a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>9cb01636831a62105706c070ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>c0b0d236831a62105706c070ceaad3a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>d8b01636831a62105706c070ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c0b0d236831a62105706c070ceaad3a4^sys_idNOT IN18b0d236831a62105706c070ceaad3d5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</action>
+        <cid>cb2666ad-578f-4520-9fed-97dae9706321</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>18b0d236831a62105706c070ceaad3d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>18b0d236831a62105706c070ceaad3d5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>54b0d236831a62105706c070ceaad3df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var application = new Object();&#13;
+    application['u_application'] = inputs.application_id;&#13;
+&#13;
+    var instanceScanSuites = [];&#13;
+    var atfScanSuites = [];&#13;
+&#13;
+    var dtIS = new sn_dt.DecisionTableAPI();&#13;
+    var instanceScans = dtIS.getDecisions('cc523d3e835662105706c070ceaad3a3', application);&#13;
+    for(var i = 0; i &lt; instanceScans.length; i++) {&#13;
+        var suite = {};&#13;
+        suite['suite_id'] = instanceScans[i].result_elements.u_instance_scan_suite_sys_id;&#13;
+        suite['suite_name'] = instanceScans[i].result_elements.u_instance_scan_suite_name;&#13;
+        suite['error_severity'] = instanceScans[i].result_elements.u_severity_level;&#13;
+        instanceScanSuites.push(suite);&#13;
+    }&#13;
+&#13;
+    var dtATF = new sn_dt.DecisionTableAPI();&#13;
+    var atfScans = new dtATF.getDecisions('d0e7b1f2839662105706c070ceaad305', application);&#13;
+    for(var j = 0; j &lt; atfScans.length; j++) {&#13;
+        var suite = {};&#13;
+        suite['suite_id'] = atfScans[j].result_elements.u_atf_suite_sys_id;&#13;
+        suite['suite_name'] = atfScans[j].result_elements.u_atf_suite_name;&#13;
+        suite['error_severity'] = atfScans[j].result_elements.u_severity_level;&#13;
+        atfScanSuites.push(suite);&#13;
+    }&#13;
+&#13;
+    outputs.instance_scan_suites = instanceScanSuites;&#13;
+    outputs.atf_scan_suites = atfScanSuites;&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>18b0d236831a62105706c070ceaad3d5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>90b0d236831a62105706c070ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>18b0d236831a62105706c070ceaad3d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>5cb0d236831a62105706c070ceaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application_id</field>
+        <id>18b0d236831a62105706c070ceaad3d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>0a558ae383ba6e905706c070ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_18b0d236831a62105706c070ceaad3d5</table>
+        <value>{{action.application_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>18b0d236831a62105706c070ceaad3d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>10b0d236831a62105706c070ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_18b0d236831a62105706c070ceaad3d5^id=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=18b0d236831a62105706c070ceaad3d5^sys_idNOT INf1554ae383ba6e905706c070ceaad3da"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>application_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>application_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">18b0d236831a62105706c070ceaad3d5</model>
+        <model_id>18b0d236831a62105706c070ceaad3d5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_18b0d236831a62105706c070ceaad3d5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>f1554ae383ba6e905706c070ceaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=18b0d236831a62105706c070ceaad3d5^sys_idNOT INbd554ae383ba6e905706c070ceaad3f8,c2554ae383ba6e905706c070ceaad3fd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD35554ae340ba6e903ddedf8cea2609f7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FD35554ae340ba6e903ddedf8cea2609f7":{"$COCollectionField":[{"instance_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"02f774cf-1aeb-4b65-aa3e-3760ba62fdc8\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4d5e6d5e-6822-48b5-be72-a8185032eaf8\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0f6fbdd1-e42f-4835-b23d-5b2187ec0c3c\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"instance_scan_suites\",\"mandatory\":\"true\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD35554ae340ba6e903ddedf8cea2609f7\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD35554ae340ba6e903ddedf8cea2609f7.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"instance_scan_suites\",\"mandatory\":\"true\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD35554ae340ba6e903ddedf8cea2609f7\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5554ae383ba6e905706c070ceaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=instance_scan_suites_child0,child_name=instance_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=74bedf0f-0d6c-4268-8233-5cda83f2bd21,co_type_name=FD35554ae340ba6e903ddedf8cea2609f7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=2603cd27-961e-425b-9b53-55d82b60b6d7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_scan_suites</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>instance_scan_suites</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">18b0d236831a62105706c070ceaad3d5</model>
+        <model_id>18b0d236831a62105706c070ceaad3d5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_18b0d236831a62105706c070ceaad3d5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>bd554ae383ba6e905706c070ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDfd554ae35fba6e90a67986bbd9bf2bf7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FDfd554ae35fba6e90a67986bbd9bf2bf7":{"$COCollectionField":[{"atf_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"534aa562-e339-437a-8507-01277722f406\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"17520f4c-d403-47a0-aa62-816888e82e09\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6e49f772-c37a-45fa-a3c2-287bc5f35b80\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"atf_scan_suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDfd554ae35fba6e90a67986bbd9bf2bf7\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDfd554ae35fba6e90a67986bbd9bf2bf7.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"atf_scan_suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDfd554ae35fba6e90a67986bbd9bf2bf7\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1554ae383ba6e905706c070ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=atf_scan_suites_child0,child_name=atf_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=eafb33a5-ada0-48b2-a50e-90d267222c01,co_type_name=FDfd554ae35fba6e90a67986bbd9bf2bf7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1b4785c8-6b63-4bae-943c-1ec01a0e1fb8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>atf_scan_suites</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>atf_scan_suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">18b0d236831a62105706c070ceaad3d5</model>
+        <model_id>18b0d236831a62105706c070ceaad3d5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_18b0d236831a62105706c070ceaad3d5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>c2554ae383ba6e905706c070ceaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18b0d236831a62105706c070ceaad3d5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>atf_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>atf_scan_suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_18b0d236831a62105706c070ceaad3d5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>02558ae383ba6e905706c070ceaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>instance_scan_suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_18b0d236831a62105706c070ceaad3d5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 20:23:58</sys_created_on>
+        <sys_id>06554ae383ba6e905706c070ceaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=c0b0d236831a62105706c070ceaad3a4^sys_idNOT IN48b0d236831a62105706c070ceaad3a7"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bef43c4b-f866-4bed-9012-75460325af51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>application_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Application ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</model>
+        <model_id>c0b0d236831a62105706c070ceaad3a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c0b0d236831a62105706c070ceaad3a4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>48b0d236831a62105706c070ceaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=48b0d236831a62105706c070ceaad3a7"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c0b0d236831a62105706c070ceaad3a4^sys_idNOT IN18b0d236831a62105706c070ceaad3e2,18b0d236831a62105706c070ceaad3e7,1cb0d236831a62105706c070ceaad3eb,9cb0d236831a62105706c070ceaad3f1"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1cb0d236c11a621078c9a3fcdd2ef7e0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FD1cb0d236c11a621078c9a3fcdd2ef7e0":{"$COCollectionField":[{"instance_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"02f774cf-1aeb-4b65-aa3e-3760ba62fdc8\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4d5e6d5e-6822-48b5-be72-a8185032eaf8\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0f6fbdd1-e42f-4835-b23d-5b2187ec0c3c\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Instance Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"3a176598-9387-43f2-a6c4-b5ea3b26e6d5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1cb0d236c11a621078c9a3fcdd2ef7e0\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1cb0d236c11a621078c9a3fcdd2ef7e0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Instance Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"instance_scan_suites_child0\",\"uiUniqueId\":\"3a176598-9387-43f2-a6c4-b5ea3b26e6d5\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1cb0d236c11a621078c9a3fcdd2ef7e0\",\"child_label\":\"instance_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"2603cd27-961e-425b-9b53-55d82b60b6d7\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"74bedf0f-0d6c-4268-8233-5cda83f2bd21\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcb0d236831a62105706c070ceaad3e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=instance_scan_suites_child0,child_name=instance_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=74bedf0f-0d6c-4268-8233-5cda83f2bd21,co_type_name=FD1cb0d236c11a621078c9a3fcdd2ef7e0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=cb2666ad-578f-4520-9fed-97dae9706321,sourceType=step,sourceUiUniqueId=2603cd27-961e-425b-9b53-55d82b60b6d7,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=3a176598-9387-43f2-a6c4-b5ea3b26e6d5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_scan_suites</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance Scan Suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</model>
+        <model_id>c0b0d236831a62105706c070ceaad3a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>18b0d236831a62105706c070ceaad3e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18b0d236831a62105706c070ceaad3e2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18b0d236831a62105706c070ceaad3e2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9a649f1c-983d-49eb-848e-78cb10bd3240</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</model>
+        <model_id>c0b0d236831a62105706c070ceaad3a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>18b0d236831a62105706c070ceaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18b0d236831a62105706c070ceaad3e7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18b0d236831a62105706c070ceaad3e7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=44c34cd2-d3a1-4db0-9e9e-735358ec9b7b,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</model>
+        <model_id>c0b0d236831a62105706c070ceaad3a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>1cb0d236831a62105706c070ceaad3eb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1cb0d236831a62105706c070ceaad3eb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1cb0d236831a62105706c070ceaad3eb"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD18b0d236461a6210f1752354016e95e1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>fa9fa97a835662105706c070ceaad311</scope_name>
+        <serialized_content>{"FlowDesigner:FD18b0d236461a6210f1752354016e95e1":{"$COCollectionField":[{"atf_scan_suites_child0":{"error_severity":"String","error_severity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Error Severity\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"534aa562-e339-437a-8507-01277722f406\"}"},"suite_name":"String","suite_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"17520f4c-d403-47a0-aa62-816888e82e09\"}"},"suite_id":"String","suite_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Suite ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6e49f772-c37a-45fa-a3c2-287bc5f35b80\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ATF Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"30027854-dfae-4ba4-b50e-8c28937e2972\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD18b0d236461a6210f1752354016e95e1\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD18b0d236461a6210f1752354016e95e1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"cb2666ad-578f-4520-9fed-97dae9706321\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ATF Scan Suites\",\"mandatory\":\"false\",\"child_name\":\"atf_scan_suites_child0\",\"uiUniqueId\":\"30027854-dfae-4ba4-b50e-8c28937e2972\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD18b0d236461a6210f1752354016e95e1\",\"child_label\":\"atf_scan_suites_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"1b4785c8-6b63-4bae-943c-1ec01a0e1fb8\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"eafb33a5-ada0-48b2-a50e-90d267222c01\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8b0d236831a62105706c070ceaad3e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=atf_scan_suites_child0,child_name=atf_scan_suites_child0,child_type=object,child_type_label=Object,child_uiUniqueId=eafb33a5-ada0-48b2-a50e-90d267222c01,co_type_name=FD18b0d236461a6210f1752354016e95e1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=cb2666ad-578f-4520-9fed-97dae9706321,sourceType=step,sourceUiUniqueId=1b4785c8-6b63-4bae-943c-1ec01a0e1fb8,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=30027854-dfae-4ba4-b50e-8c28937e2972</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>atf_scan_suites</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ATF Scan Suites</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</model>
+        <model_id>c0b0d236831a62105706c070ceaad3a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>9cb0d236831a62105706c070ceaad3f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 20:23:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9cb0d236831a62105706c070ceaad3f1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9cb0d236831a62105706c070ceaad3f1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c0b0d236831a62105706c070ceaad3a4^sys_idNOT IN10b01636831a62105706c070ceaad30b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Scan Suites - AEM Scans">c0b0d236831a62105706c070ceaad3a4</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:44</sys_created_on>
+        <sys_id>10b01636831a62105706c070ceaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:44</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=10b01636831a62105706c070ceaad30b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>application_id</element>
+        <help/>
+        <hint/>
+        <label>Application ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c0b0d236831a62105706c070ceaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>98b0d236831a62105706c070ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>Instance Scan Suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>18b0d236831a62105706c070ceaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>1cb0d236831a62105706c070ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>atf_scan_suites</element>
+        <help/>
+        <hint/>
+        <label>ATF Scan Suites</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>5cb01636831a62105706c070ceaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 16:46:43</sys_created_on>
+        <sys_id>9cb0d236831a62105706c070ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AEM Scans" source="x_bwt_aem_scans">fa9fa97a835662105706c070ceaad311</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AEM Scans">fa9fa97a835662105706c070ceaad311</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 16:46:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c0b0d236831a62105706c070ceaad3a4"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>11b1463e839662105706c070ceaad355</sys_id>
+        <latest_snapshot>c0b0d236831a62105706c070ceaad3a4</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch3-04-17-2025_04-30-2025_1345.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
